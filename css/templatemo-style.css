@@ -30,12 +30,19 @@ body { overflow-x: hidden; }
 	position: relative;
 	z-index: 100;
 }
-.tm-site-name-container { padding-top: 20px; }
+.tm-site-name-container { 
+	padding-top: 20px; 
+	
+}
 .tm-site-name {
 	color: #FCDD44;
 	font-size: 27px;
 	font-weight: 600;
 	text-transform: uppercase;
+	
+	border: 1px  dashed;
+	background: beige;
+	border-radius: 50px;
 }
 .tm-site-name:hover,
 .tm-site-name:focus {
